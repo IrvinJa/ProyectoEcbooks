@@ -1,0 +1,10 @@
+services:
+  - name: frontend
+    type: web
+    buildCommand: yarn install && ng build
+    startCommand: ng serve
+
+  - name: backend
+    type: web
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn empresa.wsgi
