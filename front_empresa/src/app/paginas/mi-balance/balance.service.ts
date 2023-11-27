@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class BalanceService {
 
-   private apiUrl = 'http://127.0.0.1:8000/';
+  // private apiUrl = 'http://127.0.0.1:8000/'
+  private apiUrl = 'https://ecbooksdjango.onrender.com'
 
  constructor(private http: HttpClient) { }
 
