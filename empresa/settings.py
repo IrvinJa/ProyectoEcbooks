@@ -142,10 +142,10 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 # Configuración específica para Render
-if 'RENDER_EXTERNAL_HOSTNAME' in os.environ:
-    RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
-    STATIC_URL = f'https://{RENDER_EXTERNAL_HOSTNAME}{STATIC_URL}'
-    MEDIA_URL = f'https://{RENDER_EXTERNAL_HOSTNAME}{MEDIA_URL}'
+# if 'RENDER_EXTERNAL_HOSTNAME' in os.environ:
+#     RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+#     STATIC_URL = f'https://{RENDER_EXTERNAL_HOSTNAME}{STATIC_URL}'
+#     MEDIA_URL = f'https://{RENDER_EXTERNAL_HOSTNAME}{MEDIA_URL}'
 
 if not DEBUG:
     # Tell Django to copy statics to the `staticfiles` directory
