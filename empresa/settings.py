@@ -182,3 +182,5 @@ CORS_ALLOWED_ORIGINS = [
     "https://heartfelt-pie-c21db3.netlify.app",
 
 ]
+
+CSRF_TRUSTED_ORIGINS = ["https://heartfelt-pie-c21db3.netlify.app"]
