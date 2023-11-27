@@ -8,7 +8,7 @@ import { Observable, map, tap } from 'rxjs';
 export class ProductoService {
 
  // private apiUrl = 'http://127.0.0.1:8000/'
- private apiUrl = 'https://ecbooksdjango.onrender.com'
+ private apiUrl = 'https://ecbooksdjango.onrender.com/'
 
   constructor(private http: HttpClient) { }
 
