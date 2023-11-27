@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+back_empresa/
+
 # Distribution / packaging
 .Python
 build/
