@@ -179,4 +179,6 @@ SIMPLE_JWT={
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",  # Agrega aquí el origen de tu aplicación Angular
+    "https://heartfelt-pie-c21db3.netlify.app",
+
 ]
