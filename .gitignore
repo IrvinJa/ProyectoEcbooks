@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
-back_empresa/
+.back_empresa/
 
 # Distribution / packaging
 .Python
